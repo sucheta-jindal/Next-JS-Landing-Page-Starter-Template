@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 
 type IVerticalFeatureRowProps = {
   title: string;
-  description: string;
+  description?: string;
   image: string;
   imageAlt: string;
   reverse?: boolean;
